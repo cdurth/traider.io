@@ -21,6 +21,7 @@ createServer = function createServer () {
         secret: 'mdfkldfgkl&*(sas/d,asldsjf()*)(mlksdmfNfjSDsdfYUHNn' , 
         store: new MongoStore(
         {
+           url: 'mongodb://admin:admin@proximus.modulusmongo.net:27017/he5doSyj',
            db: 'traiderioSessions' 
         })
     })); 
